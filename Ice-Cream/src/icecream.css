@@ -1,0 +1,80 @@
+h1 {
+    text-align: center;
+    color: palevioletred;
+    border: 2px solid palevioletred;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 40px;
+    font-family: monospace;
+}
+
+h2 {
+    text-align: center;
+    color: palevioletred;
+    font-size: 35px;
+    font-family: monospace;
+    
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 25px;
+    color: palevioletred;
+    font-family: monospace;
+}
+
+button {
+    color: palevioletred;
+    background-color: rgb(250, 222, 222);
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 700;
+    margin: 20px auto;
+    display: block;
+    padding: 25px;
+    border: 2px solid;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px rgb(199, 195, 195);
+    transition: all 150ms ease-in-out;
+}
+
+button:hover {
+    transition: all 200ms ease-in-out;
+    background-color: rgb(37, 34, 34);
+    color: palevioletred;
+    cursor: pointer;
+}
+
+.container {
+    margin: 0 auto;
+    display: block;
+    padding: 30px 60px;
+    max-width: 600px;
+    background-color: #fafaec;
+}
+
+.learnmore {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(233, 35, 101);
+}
+
+.learnmore:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    font-size: 20px;
+    opacity: 0.7;
+    text-align: center;
+    font-family: monospace;
+
+}
